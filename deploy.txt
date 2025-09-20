@@ -1,0 +1,20 @@
+deployment: 
+
+www.instagram.com
+
+
+cloud services 
+azure ,aws 
+
+render,vercel 
+
+backend
+
+server   +   database 
+render ->render 
+database ->aiven 
+
+
+github
+
+
