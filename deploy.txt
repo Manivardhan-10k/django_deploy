@@ -11,10 +11,20 @@ render,vercel
 backend
 
 server   +   database 
-render ->render 
+server ->render 
 database ->aiven 
 
 
-github
+github 
 
+
+
+
+asgi - asynchronous gateway interface 
+wsgi - web service gateway interface
+
+
+
+
+server -> it ia machine which takes req  -> process -> res
 
