@@ -28,3 +28,31 @@ wsgi - web service gateway interface
 
 server -> it ia machine which takes req  -> process -> res
 
+
+
+
+server -render
+database -aiven 
+
+pip freeze > requirements.txt 
+
+req+ manage.py  
+
+pip install gunicorn
+
+
+
+ec2 -server   - render
+rds -db       - aiven
+s3 - files    - cloudinary 
+
+
+
+CI/CD pipelines
+
+continuous integration 
+continuous deployment  
+
+
+
+
