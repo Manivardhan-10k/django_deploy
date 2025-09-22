@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'dep_pro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': env("Database name"),
-        "USER":env("User"),
-        "PASSWORD":env("Password"),
-        "HOST":env("Host"),
-        "PORT":env("Port")
+        'NAME': env("DB"),
+        "USER":env("DB_USER"),
+        "PASSWORD":env("DB_PASSWORD"),
+        "HOST":env("DB_HOST"),
+        "PORT":env("DB_PORT")
     }
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
